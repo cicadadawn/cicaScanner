@@ -1,0 +1,50 @@
+body,
+html {
+    height: 100%;
+    background-image: url(https://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    color: #444444;
+}
+
+.bgWF {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.card {
+    max-width: 900px;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 1rem;
+    background: #ffffff;
+}
+
+.icon {
+    margin: 10px;
+}
+
+.logo {
+    height: 100px;
+}
+
+.footer {
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    margin: 0;
+}
+
+.tableWrap {
+    overflow-x: auto;
+}
