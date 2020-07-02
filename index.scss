@@ -1,0 +1,130 @@
+body,
+html {
+    height: 100%;
+    background-image: url(https://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    color: #444444;
+}
+
+.bgWF {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.card {
+    max-width: 500px;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 1rem;
+    background: #ffffff;
+}
+
+.icon {
+    margin: 10px;
+}
+
+.logo {
+    height: 100px;
+}
+
+.footer {
+    font-size: 12px;
+    bottom: 0;
+    margin: 0;
+}
+
+.footerIMG {
+    height: 150px;
+    margin: 20px;
+}
+
+.TrustSection {
+    background-image: url(http://drh.img.digitalriver.com/DRHM/Storefront/Site/kasperde/pb/images/Client_lp/2018/shop_affiliate/bg-pattern-lightgreen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+
+    h2 {
+        color: #469588;
+        padding: 25px;
+    }
+
+    .show {
+        width: 100%;
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px;
+        box-sizing: border-box;
+        display: block;
+        color: #000000;
+
+        ul {
+            display: block;
+            list-style-type: disc;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+            padding-inline-start: 40px;
+            box-sizing: border-box;
+
+            li {
+                display: inline-block;
+                width: 49%;
+                font-size: 12px;
+                box-sizing: border-box;
+
+                p {
+                    font-size: 12px;
+
+                    strong {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.shareModal {
+    display: none;
+}
+
+.modalWrapper {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+
+    .modal {
+        display: block;
+        text-align: center;
+
+        .card {
+            display: inline-block;
+
+            .btn {
+                color: aliceblue;
+                margin: 5px;
+            }
+        }
+    }
+}
+
+.whatsapp {
+    background-color: #25D366;
+    color: blanchedalmond;
+}
